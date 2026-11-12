@@ -1,0 +1,46 @@
+@import 'tailwindcss';
+
+/*
+  Paleta y tipografía de Pomo (ambiente lofi cálido).
+  Cada variable --color-* genera utilidades de Tailwind:
+  bg-crema, text-cafe, border-naranja-suave, etc.
+*/
+@theme {
+  --color-crema: #fbf3e4;
+  --color-crema-claro: #fffaf1;
+  --color-beige: #f1e2c8;
+  --color-arena: #e6d2b0;
+  --color-verde-pastel: #b9d8a7;
+  --color-verde-suave: #dcebd0;
+  --color-verde-hoja: #6f9a5b;
+  --color-naranja-suave: #f2b47e;
+  --color-naranja-tostado: #d9894f;
+  --color-cafe: #5b4636;
+  --color-cafe-suave: #8a7260;
+
+  --font-titulo: 'Fredoka', ui-rounded, system-ui, sans-serif;
+  --font-cuerpo: 'Nunito', ui-rounded, system-ui, sans-serif;
+
+  /* Sombra sólida desplazada, con aire de videojuego acogedor */
+  --shadow-bloque: 0 5px 0 0 var(--color-arena);
+  --shadow-bloque-naranja: 0 5px 0 0 var(--color-naranja-tostado);
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  body {
+    @apply bg-crema font-cuerpo text-cafe antialiased;
+    /* Patrón de puntos muy sutil, como papel de cuaderno */
+    background-image: radial-gradient(var(--color-beige) 1.2px, transparent 1.2px);
+    background-size: 22px 22px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-titulo;
+  }
+}
