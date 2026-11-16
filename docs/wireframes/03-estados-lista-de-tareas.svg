@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800">
+  <title>Pomo · Estados de la lista de tareas</title>
+
+  <rect width="1000" height="800" fill="#fbf3e4"/>
+
+  <text x="40" y="60" font-family="Fredoka, sans-serif" font-weight="600" font-size="28" fill="#5b4636">Lista de tareas · estados</text>
+  <text x="40" y="88" font-family="Nunito, sans-serif" font-weight="600" font-size="15" fill="#8a7260">Componente TarjetaTarea y campo «Nueva tarea». Ancho de referencia: 600 px.</text>
+
+  <!-- A · Pendiente -->
+  <g id="A Pendiente">
+    <rect x="40" y="120" width="600" height="66" rx="18" fill="#fffaf1" stroke="#e6d2b0" stroke-width="2"/>
+    <rect x="60" y="139" width="28" height="28" rx="8" fill="#fffaf1" stroke="#f2b47e" stroke-width="2"/>
+    <text x="104" y="148" font-family="Nunito, sans-serif" font-weight="700" font-size="16" fill="#5b4636">Completar informe</text>
+    <text x="104" y="170" font-family="Nunito, sans-serif" font-size="14" fill="#8a7260">Trabajo</text>
+    <rect x="552" y="137" width="72" height="32" rx="16" fill="#f1e2c8"/>
+    <text x="588" y="158" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="14" fill="#5b4636">◎ +25</text>
+    <text x="680" y="148" font-family="Nunito, sans-serif" font-weight="800" font-size="15" fill="#5b4636">A · Pendiente</text>
+    <text x="680" y="170" font-family="Nunito, sans-serif" font-size="14" fill="#8a7260">Borde arena, casilla con borde naranja suave.</text>
+  </g>
+
+  <!-- B · Hover / foco de teclado -->
+  <g id="B Hover y foco">
+    <rect x="34" y="208" width="612" height="78" rx="23" fill="none" stroke="#d9894f" stroke-width="2" stroke-dasharray="4 4"/>
+    <rect x="40" y="214" width="600" height="66" rx="18" fill="#fffaf1" stroke="#f2b47e" stroke-width="2"/>
+    <rect x="60" y="233" width="28" height="28" rx="8" fill="#f1e2c8" stroke="#f2b47e" stroke-width="2"/>
+    <text x="104" y="242" font-family="Nunito, sans-serif" font-weight="700" font-size="16" fill="#5b4636">Completar informe</text>
+    <text x="104" y="264" font-family="Nunito, sans-serif" font-size="14" fill="#8a7260">Trabajo</text>
+    <rect x="552" y="231" width="72" height="32" rx="16" fill="#f1e2c8"/>
+    <text x="588" y="252" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="14" fill="#5b4636">◎ +25</text>
+    <text x="680" y="242" font-family="Nunito, sans-serif" font-weight="800" font-size="15" fill="#5b4636">B · Hover / foco</text>
+    <text x="680" y="264" font-family="Nunito, sans-serif" font-size="14" fill="#8a7260">Borde naranja suave; anillo de foco visible</text>
+    <text x="680" y="284" font-family="Nunito, sans-serif" font-size="14" fill="#8a7260">al navegar con teclado.</text>
+  </g>
+
+  <!-- C · Completada -->
+  <g id="C Completada">
+    <rect x="40" y="308" width="600" height="66" rx="18" fill="#dcebd0" fill-opacity="0.6" stroke="#b9d8a7" stroke-width="2"/>
+    <rect x="60" y="327" width="28" height="28" rx="8" fill="#6f9a5b"/>
+    <path d="M67 341 l5 5 l9 -10" fill="none" stroke="#fffaf1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="104" y="336" font-family="Nunito, sans-serif" font-weight="700" font-size="16" fill="#8a7260" text-decoration="line-through">Tarea de prueba 1</text>
+    <text x="104" y="358" font-family="Nunito, sans-serif" font-size="14" fill="#8a7260">Trabajo</text>
+    <rect x="552" y="325" width="72" height="32" rx="16" fill="#f1e2c8"/>
+    <text x="588" y="346" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="14" fill="#5b4636">◎ +10</text>
+    <text x="680" y="336" font-family="Nunito, sans-serif" font-weight="800" font-size="15" fill="#5b4636">C · Completada</text>
+    <text x="680" y="358" font-family="Nunito, sans-serif" font-size="14" fill="#8a7260">Fondo verde suave, título tachado,</text>
+    <text x="680" y="378" font-family="Nunito, sans-serif" font-size="14" fill="#8a7260">las monedas se suman al contador.</text>
+  </g>
+
+  <!-- D · Título largo -->
+  <g id="D Titulo largo">
+    <rect x="40" y="402" width="600" height="66" rx="18" fill="#fffaf1" stroke="#e6d2b0" stroke-width="2"/>
+    <rect x="60" y="421" width="28" height="28" rx="8" fill="#fffaf1" stroke="#f2b47e" stroke-width="2"/>
+    <text x="104" y="430" font-family="Nunito, sans-serif" font-weight="700" font-size="16" fill="#5b4636">Preparar la presentación trimestral para el equipo d…</text>
+    <text x="104" y="452" font-family="Nunito, sans-serif" font-size="14" fill="#8a7260">Trabajo</text>
+    <rect x="552" y="419" width="72" height="32" rx="16" fill="#f1e2c8"/>
+    <text x="588" y="440" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="14" fill="#5b4636">◎ +40</text>
+    <text x="680" y="430" font-family="Nunito, sans-serif" font-weight="800" font-size="15" fill="#5b4636">D · Título largo</text>
+    <text x="680" y="452" font-family="Nunito, sans-serif" font-size="14" fill="#8a7260">Una sola línea con «…»; la recompensa</text>
+    <text x="680" y="472" font-family="Nunito, sans-serif" font-size="14" fill="#8a7260">nunca se desplaza ni se recorta.</text>
+  </g>
+
+  <!-- E · Nueva tarea con foco -->
+  <g id="E Nueva tarea con foco">
+    <rect x="40" y="496" width="488" height="54" rx="18" fill="#fbf3e4" stroke="#f2b47e" stroke-width="2"/>
+    <text x="60" y="529" font-family="Nunito, sans-serif" font-weight="600" font-size="16" fill="#5b4636">Regar las plantas|</text>
+    <rect x="540" y="501" width="100" height="54" rx="18" fill="#d9894f"/>
+    <rect x="540" y="496" width="100" height="54" rx="18" fill="#f2b47e" stroke="#d9894f" stroke-width="2"/>
+    <text x="590" y="529" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="16" fill="#5b4636">+ Añadir</text>
+    <text x="680" y="518" font-family="Nunito, sans-serif" font-weight="800" font-size="15" fill="#5b4636">E · Escribiendo</text>
+    <text x="680" y="540" font-family="Nunito, sans-serif" font-size="14" fill="#8a7260">Borde naranja al enfocar. Enter o «Añadir»</text>
+    <text x="680" y="560" font-family="Nunito, sans-serif" font-size="14" fill="#8a7260">crea la tarea; el botón se hunde al pulsarlo.</text>
+  </g>
+
+  <!-- F · Lista vacía -->
+  <g id="F Lista vacia">
+    <rect x="40" y="586" width="600" height="170" rx="22" fill="#fffaf1" stroke="#e6d2b0" stroke-width="2" stroke-dasharray="8 6"/>
+    <circle cx="340" cy="638" r="26" fill="#dcebd0"/>
+    <path d="M328 638 l8 8 l16 -18" fill="none" stroke="#6f9a5b" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="340" y="696" text-anchor="middle" font-family="Fredoka, sans-serif" font-weight="600" font-size="20" fill="#5b4636">Todo listo por hoy</text>
+    <text x="340" y="722" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="15" fill="#8a7260">Añade una tarea arriba y Pomo te acompañará.</text>
+    <text x="680" y="618" font-family="Nunito, sans-serif" font-weight="800" font-size="15" fill="#5b4636">F · Lista vacía</text>
+    <text x="680" y="640" font-family="Nunito, sans-serif" font-size="14" fill="#8a7260">Mensaje amable en lugar de un hueco;</text>
+    <text x="680" y="660" font-family="Nunito, sans-serif" font-size="14" fill="#8a7260">invita a usar el campo de arriba.</text>
+  </g>
+</svg>

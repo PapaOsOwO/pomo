@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1200" viewBox="0 0 390 1200">
+  <title>Pomo · Pantalla principal y lista de tareas (móvil 390)</title>
+  <defs>
+    <pattern id="puntos" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="1.2" fill="#f1e2c8"/>
+    </pattern>
+    <clipPath id="recorteEscena">
+      <rect x="36" y="146" width="318" height="220" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g id="Fondo">
+    <rect width="390" height="1200" fill="#fbf3e4"/>
+    <rect width="390" height="1200" fill="url(#puntos)"/>
+  </g>
+
+  <!-- 1 · Cabecera -->
+  <g id="Cabecera">
+    <text x="16" y="52" font-family="Fredoka, sans-serif" font-weight="700" font-size="28" fill="#5b4636">pomo<tspan fill="#d9894f">.</tspan></text>
+    <rect x="276" y="26" width="98" height="38" rx="19" fill="#e6d2b0"/>
+    <rect x="276" y="22" width="98" height="38" rx="19" fill="#fffaf1" stroke="#f2b47e" stroke-width="2"/>
+    <circle cx="302" cy="41" r="8" fill="none" stroke="#d9894f" stroke-width="2.5"/>
+    <text x="318" y="47" font-family="Nunito, sans-serif" font-weight="800" font-size="17" fill="#5b4636">120</text>
+  </g>
+
+  <!-- 2 · Panel de la mascota (compacto, arriba) -->
+  <g id="Panel mascota">
+    <rect x="16" y="85" width="358" height="420" rx="28" fill="#e6d2b0"/>
+    <rect x="16" y="80" width="358" height="420" rx="28" fill="#fffaf1" stroke="#f2b47e" stroke-width="2"/>
+    <text x="36" y="124" font-family="Fredoka, sans-serif" font-weight="600" font-size="24" fill="#5b4636">Pomo</text>
+    <rect x="252" y="102" width="102" height="28" rx="14" fill="#dcebd0"/>
+    <text x="303" y="121" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="14" fill="#6f9a5b">Tranquilo</text>
+
+    <g id="Escena" clip-path="url(#recorteEscena)">
+      <rect x="36" y="146" width="318" height="220" fill="#f1e2c8"/>
+      <circle cx="306" cy="188" r="22" fill="#f2b47e" fill-opacity="0.6"/>
+      <rect x="36" y="312" width="318" height="54" fill="#b9d8a7"/>
+    </g>
+    <rect x="36" y="146" width="318" height="220" rx="20" fill="none" stroke="#e6d2b0" stroke-width="2"/>
+    <rect x="140" y="214" width="110" height="110" rx="22" fill="#fffaf1" fill-opacity="0.55" stroke="#8a7260" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="195" y="273" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="14" fill="#8a7260">Mascota</text>
+
+    <text x="36" y="400" font-family="Nunito, sans-serif" font-weight="700" font-size="14" fill="#5b4636">♥  Salud</text>
+    <text x="354" y="400" text-anchor="end" font-family="Nunito, sans-serif" font-weight="700" font-size="14" fill="#8a7260">80%</text>
+    <rect x="36" y="410" width="318" height="14" rx="7" fill="#fffaf1" stroke="#e6d2b0" stroke-width="2"/>
+    <rect x="38" y="412" width="252" height="10" rx="5" fill="#f2b47e"/>
+
+    <text x="36" y="452" font-family="Nunito, sans-serif" font-weight="700" font-size="14" fill="#5b4636">⚡ Energía</text>
+    <text x="354" y="452" text-anchor="end" font-family="Nunito, sans-serif" font-weight="700" font-size="14" fill="#8a7260">65%</text>
+    <rect x="36" y="462" width="318" height="14" rx="7" fill="#fffaf1" stroke="#e6d2b0" stroke-width="2"/>
+    <rect x="38" y="464" width="205" height="10" rx="5" fill="#b9d8a7"/>
+  </g>
+
+  <!-- 3 · Panel de tareas (debajo) -->
+  <g id="Panel tareas">
+    <rect x="16" y="529" width="358" height="646" rx="28" fill="#e6d2b0"/>
+    <rect x="16" y="524" width="358" height="646" rx="28" fill="#fffaf1" stroke="#f2b47e" stroke-width="2"/>
+    <text x="36" y="568" font-family="Fredoka, sans-serif" font-weight="600" font-size="24" fill="#5b4636">Tareas de hoy</text>
+    <text x="354" y="566" text-anchor="end" font-family="Nunito, sans-serif" font-weight="700" font-size="13" fill="#8a7260">1 de 5 hechas</text>
+
+    <!-- 4 · Nueva tarea: el botón se reduce a «+» -->
+    <g id="Nueva tarea">
+      <rect x="36" y="590" width="260" height="50" rx="16" fill="#fbf3e4" stroke="#e6d2b0" stroke-width="2"/>
+      <text x="52" y="620" font-family="Nunito, sans-serif" font-weight="600" font-size="15" fill="#8a7260" fill-opacity="0.8">¿Qué quieres hacer hoy?</text>
+      <rect x="306" y="595" width="48" height="50" rx="16" fill="#d9894f"/>
+      <rect x="306" y="590" width="48" height="50" rx="16" fill="#f2b47e" stroke="#d9894f" stroke-width="2"/>
+      <text x="330" y="623" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="24" fill="#5b4636">+</text>
+    </g>
+
+    <!-- 5 · Lista de tareas -->
+    <g id="Lista de tareas">
+      <rect x="36" y="660" width="318" height="64" rx="16" fill="#dcebd0" fill-opacity="0.6" stroke="#b9d8a7" stroke-width="2"/>
+      <rect x="50" y="678" width="28" height="28" rx="8" fill="#6f9a5b"/>
+      <path d="M57 692 l5 5 l9 -10" fill="none" stroke="#fffaf1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="92" y="688" font-family="Nunito, sans-serif" font-weight="700" font-size="15" fill="#8a7260" text-decoration="line-through">Tarea de prueba 1</text>
+      <text x="92" y="709" font-family="Nunito, sans-serif" font-size="13" fill="#8a7260">Trabajo</text>
+      <rect x="282" y="677" width="60" height="30" rx="15" fill="#f1e2c8"/>
+      <text x="312" y="697" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="13" fill="#5b4636">◎ +10</text>
+
+      <rect x="36" y="734" width="318" height="64" rx="16" fill="#fffaf1" stroke="#e6d2b0" stroke-width="2"/>
+      <rect x="50" y="752" width="28" height="28" rx="8" fill="#fffaf1" stroke="#f2b47e" stroke-width="2"/>
+      <text x="92" y="762" font-family="Nunito, sans-serif" font-weight="700" font-size="15" fill="#5b4636">Completar informe</text>
+      <text x="92" y="783" font-family="Nunito, sans-serif" font-size="13" fill="#8a7260">Trabajo</text>
+      <rect x="282" y="751" width="60" height="30" rx="15" fill="#f1e2c8"/>
+      <text x="312" y="771" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="13" fill="#5b4636">◎ +25</text>
+
+      <rect x="36" y="808" width="318" height="64" rx="16" fill="#fffaf1" stroke="#e6d2b0" stroke-width="2"/>
+      <rect x="50" y="826" width="28" height="28" rx="8" fill="#fffaf1" stroke="#f2b47e" stroke-width="2"/>
+      <text x="92" y="836" font-family="Nunito, sans-serif" font-weight="700" font-size="15" fill="#5b4636">Beber un vaso de agua</text>
+      <text x="92" y="857" font-family="Nunito, sans-serif" font-size="13" fill="#8a7260">Hábito</text>
+      <rect x="282" y="825" width="60" height="30" rx="15" fill="#f1e2c8"/>
+      <text x="312" y="845" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="13" fill="#5b4636">◎ +5</text>
+
+      <rect x="36" y="882" width="318" height="64" rx="16" fill="#fffaf1" stroke="#e6d2b0" stroke-width="2"/>
+      <rect x="50" y="900" width="28" height="28" rx="8" fill="#fffaf1" stroke="#f2b47e" stroke-width="2"/>
+      <text x="92" y="910" font-family="Nunito, sans-serif" font-weight="700" font-size="15" fill="#5b4636">Leer 20 minutos</text>
+      <text x="92" y="931" font-family="Nunito, sans-serif" font-size="13" fill="#8a7260">Hábito</text>
+      <rect x="282" y="899" width="60" height="30" rx="15" fill="#f1e2c8"/>
+      <text x="312" y="919" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="13" fill="#5b4636">◎ +15</text>
+
+      <rect x="36" y="956" width="318" height="64" rx="16" fill="#fffaf1" stroke="#e6d2b0" stroke-width="2"/>
+      <rect x="50" y="974" width="28" height="28" rx="8" fill="#fffaf1" stroke="#f2b47e" stroke-width="2"/>
+      <text x="92" y="984" font-family="Nunito, sans-serif" font-weight="700" font-size="15" fill="#5b4636">Tarea de prueba 2</text>
+      <text x="92" y="1005" font-family="Nunito, sans-serif" font-size="13" fill="#8a7260">Personal</text>
+      <rect x="282" y="973" width="60" height="30" rx="15" fill="#f1e2c8"/>
+      <text x="312" y="993" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="13" fill="#5b4636">◎ +10</text>
+    </g>
+
+    <!-- 6 · Cronómetro (reservado) -->
+    <g id="Cronometro reservado">
+      <rect x="36" y="1042" width="318" height="104" rx="18" fill="none" stroke="#e6d2b0" stroke-width="2" stroke-dasharray="7 5"/>
+      <text x="195" y="1090" text-anchor="middle" font-family="Fredoka, sans-serif" font-weight="600" font-size="17" fill="#8a7260">Cronómetro Pomodoro</text>
+      <text x="195" y="1112" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="12" fill="#8a7260">Espacio reservado</text>
+    </g>
+  </g>
+
+  <g id="Anotaciones" font-family="Nunito, sans-serif" font-weight="800" font-size="12" fill="#fffaf1" text-anchor="middle">
+    <circle cx="16" cy="80" r="11" fill="#d9894f"/><text x="16" y="84">2</text>
+    <circle cx="16" cy="524" r="11" fill="#d9894f"/><text x="16" y="528">3</text>
+    <circle cx="36" cy="590" r="11" fill="#d9894f"/><text x="36" y="594">4</text>
+    <circle cx="36" cy="660" r="11" fill="#d9894f"/><text x="36" y="664">5</text>
+    <circle cx="36" cy="1042" r="11" fill="#d9894f"/><text x="36" y="1046">6</text>
+  </g>
+</svg>
